@@ -4,7 +4,7 @@ import com.yanborges.arena_reserve.dto.agendamentoDto.AgendamentoRequest;
 import com.yanborges.arena_reserve.exeception.BusinessException;
 
 
-// ✨ PADRÃO TEMPLATE METHOD: Define o esqueleto rígido do algoritmo de validação
+//  PADRÃO TEMPLATE METHOD: Define o esqueleto rígido do algoritmo de validação
 public abstract class ValidadorAgendamentoTemplate {
 
     // O método principal é final para que nenhuma subclasse altere a ordem de execução

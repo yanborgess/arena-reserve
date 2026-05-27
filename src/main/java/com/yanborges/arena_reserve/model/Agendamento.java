@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder // ✨ PADRÃO BUILDER: Permite construir este objeto de forma fluida (ex: Agendamento.builder().id(1L).build())
+@Builder
 public class Agendamento {
 
     @Id

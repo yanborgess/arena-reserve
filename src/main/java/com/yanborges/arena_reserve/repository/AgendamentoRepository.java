@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Repository // ✨ PADRÃO REPOSITORY: Abstrai o acesso à tabela de Agendamentos
+@Repository //  PADRÃO REPOSITORY: Abstrai o acesso à tabela de Agendamentos
 public interface AgendamentoRepository extends JpaRepository<Agendamento, Long> {
 
     // Consulta customizada para verificar se o horário solicitado se choca com outro agendamento ativo

@@ -7,7 +7,7 @@ import com.yanborges.arena_reserve.service.strategy.PrecoPadraoStrategy;
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 
-// ✨ PADRÃO FACTORY METHOD: Fábrica responsável por decidir qual instância de estratégia criar
+
 public class CalculadoraPrecoFactory {
 
     public static CalculadoraPrecoStrategy obterEstrategia(LocalDateTime data) {
