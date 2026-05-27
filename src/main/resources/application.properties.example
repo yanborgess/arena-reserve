@@ -1,0 +1,19 @@
+spring.application.name=reserve
+
+# ==========================================
+# CONFIGURAÇÕES DO BANCO DE DADOS (POSTGRESQL)
+# ==========================================
+# Altere os valores abaixo de acordo com o seu ambiente local
+spring.datasource.url=jdbc:postgresql://localhost:5432/nome_do_seu_banco_aqui
+spring.datasource.username=seu_usuario_aqui
+spring.datasource.password=sua_senha_aqui
+
+# Estratégia do Hibernate (update, create-drop, none)
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# ==========================================
+# DOCUMENTAÇÃO (SWAGGER / OPENAPI)
+# ==========================================
+springdoc.api-docs.path=/api-docs
